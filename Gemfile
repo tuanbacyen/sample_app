@@ -7,6 +7,10 @@ end
 
 gem "rails", "~> 5.1.4"
 
+gem "bcrypt"
+
+gem "config"
+
 gem "sqlite3"
 
 gem "puma", "~> 3.7"

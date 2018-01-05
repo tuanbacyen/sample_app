@@ -43,3 +43,6 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+  controllers:
+    users:
+      notfound: "User not found"
