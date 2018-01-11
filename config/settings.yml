@@ -1,0 +1,4 @@
+maximunName: 50
+maximunEmail: 255
+minimumPass: 6
+sizeUserHelper: 80
