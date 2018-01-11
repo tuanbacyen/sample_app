@@ -1,48 +1,53 @@
 en:
-  static_pages:
-    home:
-      Welcome: "Welcome to the Sample App"
-      dec: "This is the home page for the"
-      title: "Ruby on Rails Tutorial"
-      dec1: "sample application."
-      singup: "Sign up now!"
-      logo: "Rails logo"
-    help:
-      dec: "Get help on the Ruby on Rails Tutorial at the"
-      title: "Help"
-      section: "Rails Tutorial help section"
-      dec1: "To get help on this sample app, see the"
-      tutorial: "Ruby on Rails Tutorial book"
-    contact:
-      title: "Contact"
-      dec: "Contact the Ruby on Rails Tutorial about the sample app at the"
-      page: "contact page"
-    about:
-      title: "About"
-      dec: "Ruby on Rails Tutorial"
-      dec1: "to teach web development with"
-      book: "book"
-      series: "screencast series"
-      rubyonrails: "Ruby on Rails"
-      tutorial: "This is the sample application for the tutorial."
-      and: "and"
-      ia: "is a"
-  users:
-    new:
-      title: "Sign up"
-      dec: "This will be a signup page for new users."
-  layouts:
-    header:
+  controllers:
+    welcome: "Welcome to the Sample App!"
+    notfound: "User not found"
+  views:
+    static_pages:
+      home:
+        welcome: "Welcome to the Sample App"
+        dec: "This is the home page for the"
+        title: "Ruby on Rails Tutorial"
+        dec1: "sample application."
+        singup: "Sign up now!"
+        logo: "Rails logo"
+      help:
+        dec: "Get help on the Ruby on Rails Tutorial at the"
+        title: "Help"
+        section: "Rails Tutorial help section"
+        dec1: "To get help on this sample app, see the"
+        tutorial: "Ruby on Rails Tutorial book"
+      contact:
+        title: "Contact"
+        dec: "Contact the Ruby on Rails Tutorial about the sample app at the"
+        page: "contact page"
+      about:
+        title: "About"
+        dec: "Ruby on Rails Tutorial"
+        dec1: "to teach web development with"
+        book: "book"
+        series: "screencast series"
+        rubyonrails: "Ruby on Rails"
+        tutorial: "This is the sample application for the tutorial."
+        and: "and"
+        ia: "is a"
+    users:
+      new:
+        title: "Sign up"
+        dec: "This will be a signup page for new users."
+        render: "shared/error_messages"
+        createacc: "Create my account"
+        confirmation: "Confirmation"
+    layouts:
       home: "Home"
       help: "Help"
       login: "Log in"
-    footer:
       tutorial: "Ruby on Rails Tutorial"
       name: "Michael Hartl"
       login: "Log in"
       about: "About"
       contact: "Contact"
       news: "News"
-  controllers:
-    users:
-      notfound: "User not found"
+      urlfooter: "The <a href=%{url1} >Ruby on Rails Tutorial</a>
+        by <a href=%{url2}>Michael Hartl</a>"
+      urlnews: "<a href=%{url}>News"
